@@ -1,13 +1,13 @@
 .card  {
     height: 800px;
         img{
-           height: 420px;
+           height: 800px;
            object-fit: cover;
         }
     }
     
     .hero{
-        height: 80vh;
+        height: 200vh;
         color: black;
         display: flex;
         flex-direction: row;
