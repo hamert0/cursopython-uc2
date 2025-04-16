@@ -1,0 +1,29 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+.game-board{
+    width: 88%;
+    height: 500px;
+    border: 1px solid #3333;
+    margin: 0%auto;
+}
+.spike{
+    position: absolute;
+    bottom: 0%;
+    width: 88px;
+    animation: pipe-animation  2s infinite  ease-in-out   ;
+
+}
+@keyframes pipe-animation {
+    from {
+        right: 0;
+    }
+
+to{
+    right:100;
+}
+animation: pipe-animation  2s infinite  ease-in-out;
+}
